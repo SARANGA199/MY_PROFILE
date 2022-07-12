@@ -35,17 +35,19 @@ function Project() {
               </div>
               <div className="project__meta absolute">
                 <h4 className="project__text">
-                  Research Management <br />
+                  Research Project Management <br />
                   Tool for SLIIT
                 </h4>
                 <h6 className="project__text">
                   Develop Using MERN <br />
-                  Mongo DB, Express JS <br />
-                  React JS, Node JS
+                  React JS, Node JS <br />
+                  Mongo DB, Express JS
+                  <br />
                 </h6>
                 <br />
+                <br />
                 <a
-                  href="https://github.com/ApplicationFrameworks/AF_SE3040_GroupProject.git"
+                  href="https://github.com/SARANGA199/Project-Management-Tool"
                   className="project__btn"
                 >
                   View Details
@@ -68,10 +70,14 @@ function Project() {
                 <div className="mask__effect"></div>
               </div>
               <div className="project__meta absolute">
-                <h4 className="project__text">Movie Reservatoin System</h4>
+                <h4 className="project__text">
+                  Movie Tickets <br /> Reservatoin System
+                </h4>
                 <h6 className="project__text">
                   Developed by Using <br />
-                  Mern, WSO2 EI
+                  Mern,
+                  <br />
+                  MicroService Architecture , WSO2 EI
                 </h6>
                 <br />
                 <a
