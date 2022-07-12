@@ -121,7 +121,7 @@ function Home() {
                   steps={[
                     "Full Stack Developer",
                     500,
-                    "Programmer ",
+                    "Software Programmer ",
                     2000,
                     "UI/UX Designer",
                     2000,
@@ -134,7 +134,7 @@ function Home() {
               <br></br>
               <br></br>
 
-              <a href="https://wa.me/783034591">
+              <a href="https://wa.me/765857287">
                 <img
                   style={{ marginLeft: 20 }}
                   src={logo2}
@@ -142,7 +142,7 @@ function Home() {
                   className="logo2"
                 />
               </a>
-              <a href="https://www.linkedin.com/in/dimagi-perera-63a40521a">
+              <a href="https://www.linkedin.com/in/piumika-saranga-b33a63217/">
                 <img
                   style={{ marginLeft: 20 }}
                   src={logo3}
@@ -150,7 +150,7 @@ function Home() {
                   className="logo1"
                 />
               </a>
-              <a href="https://github.com/DimagiPerera">
+              <a href="https://github.com/SARANGA199">
                 <img
                   style={{ marginLeft: 20 }}
                   src={logo4}
@@ -158,7 +158,7 @@ function Home() {
                   className="logo1"
                 />
               </a>
-              <a href="">
+              <a href="https://www.instagram.com/_s_a_r_u_99/?hl=en">
                 <img
                   style={{ marginLeft: 20 }}
                   src={logo5}
@@ -166,7 +166,7 @@ function Home() {
                   className="logo1"
                 />
               </a>
-              <a href="mailto:dimaginipunika@gmail.com">
+              <a href="mailto:piumikasaranga@gmail.com">
                 <img
                   style={{ marginLeft: 20 }}
                   src={logo1}

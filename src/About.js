@@ -28,15 +28,16 @@ const About = () => {
               </p>
               <br />
               <p className="about__text p__color">
-                I have work experience in technologies such as Programming, Data
-                Science, Algorithms, Networking and technical skills include
-                Python, JavaScript, HTML, CSS, C, C#, C++,MySQL, Angular, React,
-                Visual Studio, GIT and Java language.
+                I have acquired both theoretical and practical knowledge from
+                both academic and nonacademic resources. I am a self-motivated,
+                innovative, and quick learner, who is willing to perform towards
+                the advancement of the IT field.
               </p>
               <p className="about__text p__color">
-                And I am a productive individual with an out-going aimable
-                character and a capacity to work effectively and efficiently as
-                a part of a group as well on own initiative.
+                I am interested in an employer who cares strongly about the
+                personal and professional development of their employees and who
+                has ongoing programs designed to nurture, develop and promote an
+                individual to their maximum potential.
               </p>
               <br />
               <br />
@@ -45,7 +46,7 @@ const About = () => {
                 <a href="https://drive.google.com/file/d/1Q0zxHxhd5z1OWufryc24XCY0YsLkHZLk/view?usp=sharing">
                   <button className="about btn pointer">Download CV</button>
                 </a>
-                <a href="https://medium.com/@dimaginipunika">
+                <a href="https://medium.com/@piumikasaranga">
                   <button className="about btn pointer">My Blog</button>
                 </a>
               </div>

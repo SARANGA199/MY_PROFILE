@@ -11,7 +11,7 @@ li.nav__items {
 }
 
 li.nav__items:hover {
-  color: rgb(0, 119, 255);
+  color: rgb(34, 255, 0);
   transform: scale(1.1);
   transition: transform 0.8s;
   font-weight: bold;
@@ -37,7 +37,7 @@ h3.home__text {
   font-weight: 800;
   font-family: Montserrat, sans-serif;
   line-height: 40px;
-  color: rgb(0, 119, 255);
+  color: rgb(34, 255, 0);
 }
 h4.home__text {
   font-size: 50px;

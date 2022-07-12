@@ -4,12 +4,15 @@ import "./Service.css";
 function Service() {
   return (
     <div className="service component__space" id="Services">
-      <div className="heading"><br/>
+      <div className="heading">
+        <br />
         <h1 className="heading">My Services</h1>
-        <p className="heading p__color">There are my Services,</p>
+
         <p className="heading p__color"></p>
       </div>
-<br/><br/><br/>
+      <br />
+      <br />
+      <br />
       <div className="container">
         <div className="row">
           <div className="col__3">
@@ -37,9 +40,11 @@ function Service() {
                   Develop Android App Using Java.
                 </p>
                 <p className="p service__text p__color">
-                  Use Android Studio for 
+                  Use Android Studio and Visual Studio
                 </p>
-                <p className="p service__text p__color">Developing Purpose</p>
+                <p className="p service__text p__color">
+                  code for Developing Purpose
+                </p>
               </div>
             </div>
           </div>
@@ -66,12 +71,12 @@ function Service() {
               <div className="service__meta">
                 <h1 className="service__text">Website Development</h1>
                 <p className="p service__text p__color">
-                  Develop a Website using Mean, 
+                  Develop a Website using Mern
                 </p>
                 <p className="p service__text p__color">
-                 Mevn, Mern, Spring Boot,  
+                  JaveScript, CSS ,HTML
                 </p>
-                <p className="p service__text p__color">MongoDB, My SQL, Python</p>
+                <p className="p service__text p__color">MongoDB, My SQL</p>
               </div>
             </div>
           </div>
@@ -101,14 +106,11 @@ function Service() {
                 <p className="p service__text p__color">
                   Design UI, Wireframes using
                 </p>
-                <p className="p service__text p__color">
-                   Adobe XD, Figma,
-                </p>
+                <p className="p service__text p__color">Adobe XD, Figma,</p>
                 <p className="p service__text p__color">Sketch</p>
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>
