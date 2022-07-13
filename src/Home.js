@@ -36,7 +36,7 @@ function Home() {
                 <li className="nav__items mx__15">Projects</li>
               </a>
               <a href="#Skills">
-                <li className="nav__items mx__15">Skills</li>
+                <li className="nav__items mx__15">Achievements</li>
               </a>
               <a href="#Blog">
                 <li className="nav__items mx__15">Upcoming</li>
@@ -90,7 +90,7 @@ function Home() {
 
                 <li className="sideNavbar">
                   <a className="sideNavbarLinks" href="#Skills">
-                    Skills
+                    Achievements
                   </a>
                 </li>
 
