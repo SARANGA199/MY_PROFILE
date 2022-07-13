@@ -121,7 +121,7 @@ function Home() {
                   steps={[
                     "Full Stack Developer",
                     500,
-                    "Software Programmer ",
+                    "Software Developer ",
                     2000,
                     "UI/UX Designer",
                     2000,
