@@ -1,141 +1,110 @@
 import React from "react";
 import "./Skills.css";
-import ic1 from "./img/123 (1).png";
-import ic2 from "./img/123 (2).png";
-import ic3 from "./img/123 (3).png";
-import ic4 from "./img/123 (4).png";
-import ic5 from "./img/123 (5).png";
-import ic6 from "./img/123 (6).png";
-import ic7 from "./img/123 (7).png";
-import ic8 from "./img/123 (8).png";
-import ic9 from "./img/123 (9).png";
-import ic10 from "./img/123 (10).png";
-import ic11 from "./img/123 (11).png";
-import ic12 from "./img/123 (12).png";
-import ic13 from "./img/123 (13).png";
-import ic14 from "./img/123 (14).png";
-import ic15 from "./img/123 (15).png";
-import ic16 from "./img/123 (16).png";
+import certificate1 from "./img/cet1.jpeg";
+import certificate2 from "./img/cet2.jpeg";
+import certificate3 from "./img/cet3.jpeg";
+import certificate4 from "./img/cet4.jpeg";
+import certificate5 from "./img/cet5.jpeg";
 
 function Skills() {
   return (
-    <div className="service component__space" id="Skills">
-      <h1 className="heading"> My Skills </h1>
-      <div className="div1 skill">
-        <div className="div2">
-          <li>
-            <h1 className="h1">Sql </h1>
-            <span className="bar">
-              <span className="sql"></span>
-            </span>
-          </li>
-          <li>
-            <h1 className="h1">R </h1>
-            <span className="bar">
-              <span className="r"></span>
-            </span>
-          </li>
-          <li>
-            <h1 className="h1">Xml </h1>
-            <span className="bar">
-              <span className="xml"></span>
-            </span>
-          </li>
-          <li>
-            <h1 className="h1">Kotlin</h1>
-            <span className="bar">
-              <span className="kotlin"></span>
-            </span>
-          </li>
-          <li>
-            <h1 className="h1">Html Css </h1>
-            <span className="bar">
-              <span className="html"></span>
-            </span>
-          </li>
-        </div>
-        <div className="div3 ">
-          <li>
-            <h1 className="h1">Python</h1>
-            <span className="bar">
-              <span className="py"></span>
-            </span>
-          </li>
-          <li>
-            <h1 className="h1">Laravel </h1>
-            <span className="bar">
-              <span className="lv"></span>
-            </span>
-          </li>
-          <li>
-            <h1 className="h1">Angular Js </h1>
-            <span className="bar">
-              <span className="an"></span>
-            </span>
-          </li>
-          <li>
-            <h1 className="h1">React Js</h1>
-            <span className="bar">
-              <span className="rj"></span>
-            </span>
-          </li>
-          <li>
-            <h1 className="h1">Php </h1>
-            <span className="bar">
-              <span className="php"></span>
-            </span>
-          </li>
-        </div>
-        <div className="div4">
-          <li>
-            <h1 className="h1">JavaScript</h1>
-            <span className="bar">
-              <span className="js"></span>
-            </span>
-          </li>
-          <li>
-            <h1 className="h1">Java</h1>
-            <span className="bar">
-              <span className="java"></span>
-            </span>
-          </li>
-          <li>
-            <h1 className="h1">C++ </h1>
-            <span className="bar">
-              <span className="cpp"></span>
-            </span>
-          </li>
-          <li>
-            <h1 className="h1">C# </h1>
-            <span className="bar">
-              <span className="cs"></span>
-            </span>
-          </li>
-          <li>
-            <h1 className="h1">C </h1>
-            <span className="bar">
-              <span className="c"></span>
-            </span>
-          </li>
+    <div className="project component__space" id="Portfolio">
+      <div className="heading">
+        <h1 className="heading">Achievements</h1>
+        <p className="heading p__color"></p>
+        <p className="heading p__color"></p>
+      </div>
+      <div>
+        <h2 className="heading leftSide">SLIIT Dean's List Certificates</h2>
+      </div>
+      <div className="container">
+        <div className="row">
+          <div className="col__3">
+            <div className="project__box pointer relative">
+              <div className="project__box__img pointer relative">
+                <div className="project__img__box">
+                  <img
+                    src={certificate1}
+                    style={{ height: 450 }}
+                    alt=""
+                    className="project__img"
+                  />
+                </div>
+                <div className="mask__effect"></div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col__3">
+            <div className="project__box pointer relative">
+              <div className="project__box__img pointer relative">
+                <div className="project__img__box">
+                  <img
+                    src={certificate2}
+                    style={{ height: 450 }}
+                    alt=""
+                    className="project__img"
+                  />
+                </div>
+                <div className="mask__effect"></div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col__3">
+            <div className="project__box pointer relative">
+              <div className="project__box__img pointer relative">
+                <div className="project__img__box">
+                  <img
+                    src={certificate3}
+                    style={{ height: 450 }}
+                    alt=""
+                    className="project__img"
+                  />
+                </div>
+                <div className="mask__effect"></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div className="div5">
-        <img src={ic8} alt="" className="ic" />
-        <img src={ic3} alt="" className="ic" />
-        <img src={ic4} alt="" className="ic" />
-        <img src={ic5} alt="" className="ic" />
-        <img src={ic6} alt="" className="ic" />
-        <img src={ic7} alt="" className="ic" />
-        <img src={ic9} alt="" className="ic" />
-        <img src={ic12} alt="" className="ic" />
-        <img src={ic11} alt="" className="ic" />
-        <img src={ic15} alt="" className="ic" />
-        <img src={ic2} alt="" className="ic" />
-        <img src={ic1} alt="" className="ic" />
-        <img src={ic10} alt="" className="ic" />
-        <img src={ic13} alt="" className="ic" />
-        <img src={ic14} alt="" className="ic" />
-        <img src={ic16} alt="" className="ic" />
+      <div>
+        <h2 className="heading leftSide">SLIIT Scholarships</h2>
+      </div>
+      <div className="container">
+        <div className="row">
+          <div className="col__3">
+            <div className="project__box pointer relative">
+              <div className="project__box__img pointer relative">
+                <div className="project__img__box">
+                  <img
+                    src={certificate4}
+                    alt=""
+                    className="project__img"
+                    style={{ height: 450 }}
+                  />
+                </div>
+                <div className="mask__effect"></div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col__3">
+            <div className="project__box pointer relative">
+              <div className="project__box__img pointer relative">
+                <div className="project__img__box">
+                  <img
+                    src={certificate5}
+                    alt=""
+                    className="project__img"
+                    style={{ height: 450 }}
+                  />
+                </div>
+                <div className="mask__effect"></div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
