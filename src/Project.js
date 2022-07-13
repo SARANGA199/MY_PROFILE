@@ -1,9 +1,9 @@
 import React from "react";
 import "./Project.css";
-import Project1 from "./img/portfolio-1.jpg";
-import Project2 from "./img/portfolio-2.jpg";
-import Project3 from "./img/portfolio-3.jpg";
-import Project4 from "./img/portfolio-4.jpg";
+import Project1 from "./img/portfolio-111.jpg";
+import Project2 from "./img/vote.jpg";
+import Project3 from "./img/portfolio-33.jpg";
+import Project4 from "./img/eChanneling.jpg";
 import Project5 from "./img/portfolio-5.jpg";
 import Project6 from "./img/portfolio-6.jpg";
 import Project7 from "./img/portfolio-7.jpg";
@@ -96,7 +96,7 @@ function Project() {
                 <div className="project__img__box">
                   <img
                     src={Project8}
-                    style={{ height: 450, width: 400 }}
+                    style={{ height: 450 }}
                     alt=""
                     className="project__img"
                   />
@@ -124,22 +124,27 @@ function Project() {
             <div className="project__box pointer relative">
               <div className="project__box__img pointer relative">
                 <div className="project__img__box">
-                  <img src={Project1} alt="" className="project__img" />
+                  <img
+                    src={Project1}
+                    alt=""
+                    className="project__img"
+                    style={{ height: 450 }}
+                  />
                 </div>
                 <div className="mask__effect"></div>
               </div>
               <div className="project__meta absolute">
-                <h4 className="project__text">Bookshop Management System</h4>
+                <h4 className="project__text">Disney Re-Design</h4>
                 <h6 className="project__text">
-                  C Language FileHandeling <br />
-                  Console Display with CRUD
+                  Develop by using React <br />
+                  Redux ,CSS, FireBase
                 </h6>
                 <br />
                 <a
-                  href="https://github.com/PulasthiTharaka/Book-Shop-Management-System.git"
+                  href="https://github.com/SARANGA199/disney-clone"
                   className="project__btn"
                 >
-                  View Details
+                  View Project
                 </a>
               </div>
             </div>
@@ -149,24 +154,27 @@ function Project() {
             <div className="project__box pointer relative">
               <div className="project__box__img pointer relative">
                 <div className="project__img__box">
-                  <img src={Project2} alt="" className="project__img" />
+                  <img
+                    src={Project2}
+                    alt=""
+                    className="project__img"
+                    style={{ height: 450 }}
+                  />
                 </div>
                 <div className="mask__effect"></div>
               </div>
               <div className="project__meta absolute">
-                <h4 className="project__text">
-                  Construction Management System
-                </h4>
+                <h4 className="project__text">Online Voting System</h4>
                 <h6 className="project__text">
                   HTML, CSS, JavaScript,
                   <br /> PHP, PHP My Admin
                 </h6>
                 <br />
                 <a
-                  href="https://github.com/DimagiPerera/Construction_Management_System.git"
+                  href="https://github.com/SARANGA199/Online_Voting_System"
                   className="project__btn"
                 >
-                  View Details
+                  View Project
                 </a>
               </div>
             </div>
@@ -176,22 +184,29 @@ function Project() {
             <div className="project__box pointer relative">
               <div className="project__box__img pointer relative">
                 <div className="project__img__box">
-                  <img src={Project3} alt="" className="project__img" />
+                  <img
+                    src={Project3}
+                    alt=""
+                    className="project__img"
+                    style={{ height: 450 }}
+                  />
                 </div>
                 <div className="mask__effect"></div>
               </div>
               <div className="project__meta absolute">
-                <h4 className="project__text">MotoService Android MobileApp</h4>
+                <h4 className="project__text">
+                  Classic Curves Android MobileApp
+                </h4>
                 <h6 className="project__text">
                   Android Studio Java <br />
                   FireBase Database
                 </h6>
                 <br />
                 <a
-                  href="https://github.com/DimagiPerera/Moto_Service_App.git"
+                  href="https://github.com/SARANGA199/Online-Clothing-Store"
                   className="project__btn"
                 >
-                  View Details
+                  View Project
                 </a>
               </div>
             </div>
@@ -201,22 +216,27 @@ function Project() {
             <div className="project__box pointer relative">
               <div className="project__box__img pointer relative">
                 <div className="project__img__box">
-                  <img src={Project4} alt="" className="project__img" />
+                  <img
+                    src={Project4}
+                    alt=""
+                    className="project__img"
+                    style={{ height: 450 }}
+                  />
                 </div>
                 <div className="mask__effect"></div>
               </div>
               <div className="project__meta absolute">
-                <h4 className="project__text">Property Management System</h4>
+                <h4 className="project__text">E-Channeling System</h4>
                 <h6 className="project__text">
                   Java, JavaServelet JSP <br />
                   PHP My Admin{" "}
                 </h6>
                 <br />
                 <a
-                  href="https://github.com/DimagiPerera/Property_Management_System.git"
+                  href="https://github.com/SARANGA199/E_Channeling_System"
                   className="project__btn"
                 >
-                  View Details
+                  View Project
                 </a>
               </div>
             </div>
@@ -226,22 +246,27 @@ function Project() {
             <div className="project__box pointer relative">
               <div className="project__box__img pointer relative">
                 <div className="project__img__box">
-                  <img src={Project5} alt="" className="project__img" />
+                  <img
+                    src={Project5}
+                    alt=""
+                    className="project__img"
+                    style={{ height: 450 }}
+                  />
                 </div>
                 <div className="mask__effect"></div>
               </div>
               <div className="project__meta absolute">
-                <h4 className="project__text">Road Management System</h4>
+                <h4 className="project__text">Medical Lab System</h4>
                 <h6 className="project__text">
-                  Frontend web application
-                  <br /> only using html and css
+                  OSGI framework
+                  <br /> Develop using Java and Eclipse
                 </h6>
                 <br />
                 <a
-                  href="https://github.com/DimagiPerera/Road_Management_System.git"
+                  href="https://github.com/SARANGA199/Medical_Lab"
                   className="project__btn"
                 >
-                  View Details
+                  View Project
                 </a>
               </div>
             </div>
@@ -251,24 +276,27 @@ function Project() {
             <div className="project__box pointer relative">
               <div className="project__box__img pointer relative">
                 <div className="project__img__box">
-                  <img src={Project6} alt="" className="project__img" />
+                  <img
+                    src={Project6}
+                    alt=""
+                    className="project__img"
+                    style={{ height: 450 }}
+                  />
                 </div>
                 <div className="mask__effect"></div>
               </div>
               <div className="project__meta absolute">
-                <h4 className="project__text">Tutorin Management System </h4>
+                <h4 className="project__text">Shopping Cart </h4>
                 <h6 className="project__text">
-                  For Gurukula WebApplication <br />
-                  ReactJs JavaScript,
-                  <br />
-                  Laravel PHP PHPMyAdmin
+                  Develop by Using <br />
+                  KoaJS,NodeJS,ReactJS
                 </h6>
                 <br />
                 <a
-                  href="https://github.com/SLIIT-FacultyOfComputing/itp_project-itp2021_s2_b06_g5.git"
+                  href="https://github.com/SARANGA199/Shopping_Cart_KoaJS"
                   className="project__btn"
                 >
-                  View Details
+                  View Project
                 </a>
               </div>
             </div>

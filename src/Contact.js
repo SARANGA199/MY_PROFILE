@@ -35,8 +35,7 @@ function Contact() {
                 <h1 className="hire__text">Contact Me.</h1>
                 <p className="hire__text white"></p>
                 <p className="hire__text white">
-                  Send E-mail to{" "}
-                  <strong>dimaginipunikagmail.com</strong>
+                  Send E-mail to <strong>piumikasaranga@gmail.com</strong>
                 </p>
               </div>
               <div className="input__box">
