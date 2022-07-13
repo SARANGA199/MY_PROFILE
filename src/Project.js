@@ -7,7 +7,7 @@ import Project4 from "./img/portfolio-4.jpg";
 import Project5 from "./img/portfolio-5.jpg";
 import Project6 from "./img/portfolio-6.jpg";
 import Project7 from "./img/portfolio-7.jpg";
-import Project8 from "./img/myphoto.jpg";
+import Project8 from "./img/waste.jpg";
 import Project9 from "./img/project9.jpg";
 
 function Project() {
@@ -50,7 +50,7 @@ function Project() {
                   href="https://github.com/SARANGA199/Project-Management-Tool"
                   className="project__btn"
                 >
-                  View Details
+                  View Project
                 </a>
               </div>
             </div>
@@ -81,10 +81,10 @@ function Project() {
                 </h6>
                 <br />
                 <a
-                  href="https://github.com/DistributedSystemsSE3020/Movie_Management.git"
+                  href="https://github.com/SARANGA199/Online-movie-reservation"
                   className="project__btn"
                 >
-                  View Details
+                  View Project
                 </a>
               </div>
             </div>
@@ -96,7 +96,7 @@ function Project() {
                 <div className="project__img__box">
                   <img
                     src={Project8}
-                    style={{ height: 450, width: 380 }}
+                    style={{ height: 450, width: 400 }}
                     alt=""
                     className="project__img"
                   />
@@ -104,17 +104,17 @@ function Project() {
                 <div className="mask__effect"></div>
               </div>
               <div className="project__meta absolute">
-                <h4 className="project__text">My CV Portfolio</h4>
+                <h4 className="project__text">Waste Management System</h4>
                 <h6 className="project__text">
                   Develop by Using <br />
-                  React JS JavaScript
+                  Mern Stack
                 </h6>
                 <br />
                 <a
-                  href="https://github.com/DimagiPerera/My_Portfolio.git"
+                  href="https://github.com/SARANGA199/Waste-Management-System"
                   className="project__btn"
                 >
-                  View Details
+                  View Project
                 </a>
               </div>
             </div>
